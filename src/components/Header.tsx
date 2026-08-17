@@ -61,7 +61,8 @@ export const Header = () => {
       <Row
         fitHeight
         className={styles.position}
-        position="sticky"
+        position="fixed"
+        top="0"
         as="header"
         zIndex={9}
         fillWidth
@@ -70,6 +71,7 @@ export const Header = () => {
         data-border="rounded"
         s={{
           position: "fixed",
+          top: "auto",
         }}
       >
         <Row paddingLeft="12" fillWidth vertical="center" textVariant="body-default-s">
