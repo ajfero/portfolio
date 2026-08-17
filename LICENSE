@@ -1,17 +1,26 @@
-Creative Commons Attribution-NonCommercial 4.0 International  
-CC BY-NC 4.0
+Copyright (c) 2026 Anthony Jhon Fernandez Guevara (AJFero)
 
-By using this work, you agree to the following terms:  
+All rights reserved.
 
-You are free to:  
-- **Share** — copy and redistribute the material in any medium or format  
-- **Adapt** — remix, transform, and build upon the material  
+This repository contains the source code and content of the personal
+portfolio website of Anthony Fernandez (https://ajfero.com).
 
-Under the following conditions:  
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
-- **NonCommercial** — You may not use the material for **commercial purposes**.  
+The site content (text, images, branding) may not be reproduced without
+permission.
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.  
+Licence provenance
+------------------
 
-Full license text available at:  
-[https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode)  
+This codebase was originally derived from the Magic Portfolio template by
+Once UI (licensed CC BY-NC 4.0, which prohibits commercial use). Because
+this site markets commercial freelance services, all Magic Portfolio
+template code, content, styles and assets were removed and replaced with
+an original implementation. Remaining third-party software is limited to
+permissively licensed open-source dependencies:
+
+- Next.js (MIT)
+- React (MIT)
+- Tailwind CSS (MIT)
+- Geist fonts (SIL OFL 1.1, via next/font)
+
+No CC BY-NC-licensed code or assets remain in this repository.
