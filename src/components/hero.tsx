@@ -17,11 +17,12 @@ export function Hero() {
             {person.role}
           </p>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            I design and build custom web applications, REST APIs and
-            database-backed systems for businesses that need reliable software.
-            Trained as an electronic engineer, I bring hardware-grade rigour to
-            every layer of the stack — available for freelance projects and
-            consulting in English or Spanish.
+            I help companies integrate AI into their workflows and build the
+            custom software behind it — AI-powered features, web applications,
+            REST APIs and database-backed systems. Trained as an electronic
+            engineer, I bring hardware-grade rigour to every layer of the stack
+            — available for freelance projects and consulting in English or
+            Spanish.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link

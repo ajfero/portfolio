@@ -12,26 +12,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(person.website),
   title: {
-    default: `${person.shortName} — Software Developer & IT Consultant`,
+    default: `${person.shortName} — AI Software Engineer & IT Consultant`,
     template: `%s — ${person.brand}`,
   },
   description:
-    "Electronic engineer and full-stack software developer on the Gold Coast, Australia. Custom web applications, REST APIs, database-backed solutions and technical consulting.",
+    "AI software engineer and electronic engineer on the Gold Coast, Australia. AI integrations for company workflows, custom web applications, REST APIs, database-backed solutions and technical consulting.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: person.website,
     siteName: person.brand,
-    title: `${person.shortName} — Software Developer & IT Consultant`,
+    title: `${person.shortName} — AI Software Engineer & IT Consultant`,
     description:
-      "Custom web applications, REST APIs, database-backed solutions and technical consulting from the Gold Coast, Australia.",
+      "AI integrations for company workflows, custom web applications, REST APIs and database-backed solutions from the Gold Coast, Australia.",
     images: [{ url: person.avatar, width: 460, height: 460, alt: person.shortName }],
   },
   twitter: {
     card: "summary",
-    title: `${person.shortName} — Software Developer & IT Consultant`,
+    title: `${person.shortName} — AI Software Engineer & IT Consultant`,
     description:
-      "Custom web applications, REST APIs and technical consulting from the Gold Coast, Australia.",
+      "AI integrations for company workflows, custom web applications, REST APIs and technical consulting from the Gold Coast, Australia.",
   },
 };
 
@@ -44,7 +44,7 @@ const personJsonLd = {
   "@type": "Person",
   name: person.shortName,
   alternateName: person.brand,
-  jobTitle: "Software Developer & IT Consultant",
+  jobTitle: "AI Software Engineer & IT Consultant",
   email: `mailto:${person.email}`,
   url: person.website,
   image: `${person.website}${person.avatar}`,

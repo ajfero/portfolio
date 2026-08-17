@@ -11,7 +11,7 @@ export const person = {
   name: "Anthony J. Fernandez G.",
   shortName: "Anthony Fernandez",
   brand: "AJFero",
-  role: "Electronic Engineer · Software Developer · IT Consultant",
+  role: "Electronic Engineer · AI Software Engineer · IT Consultant",
   location: "Gold Coast, Queensland, Australia",
   email: "ing.ajfernandez@gmail.com",
   languages: ["English", "Spanish"],
@@ -26,6 +26,12 @@ export const social = [
 ];
 
 export const services = [
+  {
+    title: "AI Integration & Workflow Automation",
+    description:
+      "Embedding AI into company workflows — LLM-powered features, AI chatbots and assistants, and automation of repetitive business processes using modern AI APIs and agent tooling.",
+    tags: ["LLM APIs", "AI agents", "Chatbots", "Workflow automation"],
+  },
   {
     title: "Custom Web Applications",
     description:
@@ -138,10 +144,10 @@ export const projects: Project[] = [
 
 export const experience = [
   {
-    role: "Independent IT Consultant & Software Developer",
+    role: "Independent IT Consultant & AI Software Engineer",
     org: "AJFero — freelance",
     detail:
-      "Custom web applications, REST APIs, database-backed solutions, systems integration and technical consulting for clients, operating under an Australian ABN.",
+      "AI integrations into company workflows, custom web applications, REST APIs, database-backed solutions, systems integration and technical consulting for clients, operating under an Australian ABN.",
   },
   {
     role: "Software Development Projects",
@@ -170,6 +176,10 @@ export const education = [
 ];
 
 export const skills = [
+  {
+    group: "AI & Automation",
+    items: ["LLM APIs", "AI agents", "AI chatbots", "Prompt engineering", "Workflow automation"],
+  },
   {
     group: "Languages",
     items: ["TypeScript", "JavaScript", "PHP", "SQL", "MATLAB"],

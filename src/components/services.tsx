@@ -8,7 +8,7 @@ export function Services() {
           Services
         </h2>
         <p className="mt-4 max-w-2xl text-balance text-2xl font-semibold tracking-tight md:text-3xl">
-          Freelance IT services and custom software development
+          AI integration, freelance IT services and custom software development
         </p>
         <div className="mt-12 grid gap-px overflow-hidden rounded border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
